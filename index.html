@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different types of FORM</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Main Style sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header CSS -->
+        <header id="header">
+            <div class="header">
+                <div class="menubar">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">portfolio</a></li>
+                            <li><a href="#">contact us</a></li>
+                        </ul>
+                    </nav>
+                    <div class="search">                      
+                        <input type="text" id="find" placeholder="fine here">
+                        <i class="fa-solid fa-magnifying-glass glass"></i>
+                    </div>
+                </div>
+            </div>  
+        </header>
+
+        <!-- Main CSS -->
+        <section id="form">
+            <div class="form">
+                <div class="registration">
+                    <div class="register">
+                        <h3>register</h3>
+                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et itaque expedita vero inventore vitae odio commodi tempore doloremque voluptas adipisci sunt error eum fuga aspernatur</p>
+                        <form action="#">
+                            <input type="text" id="fr-name" placeholder="first name">
+                            <input type="text" id="form-lname" placeholder="last name">
+                            <input type="email" id="form-mail" placeholder="your mail">
+                        
+                            <div class="checkbox">
+                                <input type="checkbox" id="remember">
+                                <label>accept Lorem ipsum dolor sit amet.</label>
+                            </div> 
+                            <div class="btn">
+                                <a href="#">registration</a>
+                            </div>
+                        </form>   
+                    </div> 
+                    <div class="comment">
+                        <label>add your comment here</label>
+                        <div class="comments">
+                            <textarea  id="msg" cols="20" rows="5"></textarea>
+                            <a href="#" class="button">send</a>
+                        </div> 
+                    </div>  
+                </div>
+                <div class="form-2">
+                    <div class="log-in">
+                        <h3>log in</h3>
+                        <form action="#">
+                            <input type="text" id="f-name" placeholder="first name">
+                            <input type="email" id="form-2-mail" placeholder="your mail">
+                           
+                            <div class="checkbox">
+                                <input type="checkbox" id="tick">
+                                <label>remember me.</label>
+                            </div>   
+                            <div class="btn">
+                                <a href="#">log in</a>
+                            </div> 
+                        </form>   
+                    </div>
+                    <div class="tag-button">
+                        <div class="btn btn-1">add tag <i class="fa-solid fa-xmark cross"></i></div>
+                        <div class="btn btn-2">add tag <i class="fa-solid fa-xmark cross"></i></div>
+                    </div>
+                    <div class="tag-button">
+                        <div class="btn btn-2">add tag <i class="fa-solid fa-xmark cross"></i></div>
+                        <div class="btn btn-1">add tag <i class="fa-solid fa-xmark cross"></i></div>
+                    </div>
+                    <div class="comment-2">
+                        <h4>contact me</h4>
+                        <div class="comments">
+                            <textarea id="comment-2-msg" cols="20" rows="5"></textarea>
+                            <a href="#" class="button">send</a>
+                        </div> 
+                    </div> 
+                </div>     
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact">
+                <h3>Contact us</h3>
+                <div class="contact-form">
+                    <div class="user">
+                        <img src="assets/img/user.jpg" alt="">
+                    </div>
+                    <div class="user-info">
+                        <form action="#">
+                            <input type="text" id="user-fname" placeholder="first name">
+                            <input type="text" id="ls-name" placeholder="last name">
+                            <input type="text" id="uname" placeholder="user name">
+                            <input type="password" id="pword" placeholder="password">
+                            <input type="password" id="user-pass" placeholder="re-password">
+                            <input type="email" id="contact-mail" placeholder="email">
+                            <div class="checkbox">
+                                <input type="checkbox" id="contact-tick">
+                                <label>remember me.</label>
+                            </div> 
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sign-up">
+            <div class="sign-up">
+                <h3>sign up</h3>
+                <label>it's quick and easy</label>
+                <form action="#">
+                    <div class="name-detail">
+                        <div class="name">
+                            <div class="name-input">
+                                <input type="text" id="fs-name" placeholder="first name">
+                            </div>
+                            <div class="name-input">
+                                <input type="text" id="sign-lname" placeholder="surname">
+                            </div>
+                        </div>
+                        <input type="text" id="number" placeholder="mobile number or email address">
+                        <input type="password" id="pass" placeholder="new password">
+                    </div>
+                    <div class="birth">
+                        <label>Date of birth</label>
+                        <select >
+                            <option value="Day">Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <select>
+                            <option value="Month">Month</option>
+                            <option value="Jan">Jan</option>
+                            <option value="Feb">Feb</option>
+                            <option value="Mar">Mar</option>
+                            <option value="Apr">Apr</option>
+                            <option value="May">May</option>
+                        </select>
+                        <select class="last-child">
+                            <option value="Year">Year</option>
+                            <option value="1999">1999</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                        </select>
+                        <label>Gender</label>
+                        <div class="gender"> 
+                             <span><input type="radio" name="gender">male</span>
+                            <span><input type="radio" name="gender">female</span>
+                            <span><input type="radio" name="gender">custom</span> 
+                        </div>   
+                        <input type="submit" value="sign up">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
